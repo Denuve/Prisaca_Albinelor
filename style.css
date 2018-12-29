@@ -5,6 +5,7 @@ body{
     background-size: cover;
 }
 
+/*NAVIGATION*/
 .navigation-up{
     height: 15vh;
     
@@ -43,6 +44,91 @@ body{
 
 }
 
+
+/*BOTTOM*/
+.bottom{
+    background-color: black;
+    border: 2px groove grey;
+    
+    opacity: 0.8;
+    
+    padding-left: 10px;
+}
+
+.bottom-nav{
+    display: flex;
+    flex-direction: column;
+}
+.bottom-signature{
+    display: flex;
+    justify-content:center;
+    align-content: flex-start;
+}
+
+#navigation-button-down{
+    padding-bottom: 4px;
+    color:aqua;
+    
+}
+
+
+/*INDEX*/
+.index-content{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid gold;
+    
+    
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.index_paragraph1{
+    margin: 20px;   
+    
+    opacity: 1;
+    
+    display: flex;
+}
+
+#index_image{
+    height: 240px;
+    width: 240px;
+    border-radius: 50%;
+}
+
+
+#index_paragraph1_p{
+    font-size: 27px;
+    font-family: 'Thasadith';
+    margin: 8px;
+}
+
+#index_paragraph_2{
+    font-size: 23px;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.index-content2{
+    margin: 20px;
+    margin-bottom: 100px;
+}
+
+.index-content3{
+    
+    margin: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    
+}
+#index-content3-img{
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+}
+
+/* MIERE.HTML */
 
 .primary-content{
     
@@ -98,32 +184,9 @@ body{
 }
 
 
-.bottom{
-    background-color: black;
-    border: 2px groove grey;
-    
-    opacity: 0.8;
-    
-    padding-left: 10px;
-}
 
-.bottom-nav{
-    display: flex;
-    flex-direction: column;
-}
-.bottom-signature{
-    display: flex;
-    justify-content:center;
-    align-content: flex-start;
-}
 
-#navigation-button-down{
-    padding-bottom: 4px;
-    color:aqua;
-    
-}
 
-/* MIERE.HTML */
 
 .miere-info{
     margin: 40px;
@@ -207,11 +270,44 @@ body{
 
 /* Produse */
 
+.produse-first{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
+
+.produse-h2-img{
+ display: flex;
+ justify-content: center;
+}
+
+.produse-ul{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+}
 
 
+#miere-produse{
+    height: 260px;
+    width: 260px;
+    border-radius: 50%;
+}
 
+.produse-second{
+    margin-bottom: 30px;
+}
+.produse-second-h2{
+    margin: 20px;
+}
+.produse-second-img-pret{
+    margin: 20px;
+    display: flex;
+}
 
-
-
-
-
+#produse-text{
+    font-family: 'Roboto';
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+}
