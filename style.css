@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #ff8c1a;
     margin: 0px;
     background-image: url(images/bees2.jpg);
@@ -6,39 +6,42 @@ body{
 }
 
 /*NAVIGATION*/
-.navigation-up{
+.navigation-up {
     height: 15vh;
-    
+
 }
-.nav-image{
+
+.nav-image {
     display: flex;
     justify-content: center;
 }
-.nav-image p{
+
+.nav-image p {
     font-size: 50px;
-    color:gold;
+    color: gold;
     font-family: "Sofia";
-    font-style:italic;
+    font-style: italic;
 }
 
-.nav-bar{
+.nav-bar {
     margin-top: 40px;
     background-color: black;
     opacity: 0.7;
     border: 2px groove grey;
-    
+
     display: flex;
     justify-content: center;
 }
-#nav-link{
+
+#nav-link {
     text-decoration: none;
     color: white;
 }
 
-#navigation-button{
+#navigation-button {
     font-family: cursive;
     font-size: 20px;
-    
+
     margin-left: 20px;
     padding: 5px 5px 5px 5px;
 
@@ -46,83 +49,85 @@ body{
 
 
 /*BOTTOM*/
-.bottom{
+.bottom {
     background-color: black;
     border: 2px groove grey;
-    
+
     opacity: 0.8;
-    
+
     padding-left: 10px;
 }
 
-.bottom-nav{
+.bottom-nav {
     display: flex;
     flex-direction: column;
 }
-.bottom-signature{
+
+.bottom-signature {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-content: flex-start;
 }
 
-#navigation-button-down{
+#navigation-button-down {
     padding-bottom: 4px;
-    color:aqua;
-    
+    color: aqua;
+
 }
 
 
 /*INDEX*/
-.index-content{
+.index-content {
     background-color: rgba(255, 255, 255, 0.8);
     border: 2px solid gold;
-    
-    
+
+
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.index_paragraph1{
-    margin: 20px;   
-    
+.index_paragraph1 {
+    margin: 20px;
+
     opacity: 1;
-    
+
     display: flex;
 }
 
-#index_image{
+#index_image {
     height: 240px;
     width: 240px;
     border-radius: 50%;
 }
 
 
-#index_paragraph1_p{
+#index_paragraph1_p {
     font-size: 27px;
     font-family: 'Thasadith';
     margin: 8px;
 }
 
-#index_paragraph_2{
+#index_paragraph_2 {
     font-size: 23px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 20px;
     margin-top: 40px;
 }
 
-.index-content2{
+.index-content2 {
     margin: 20px;
     margin-bottom: 100px;
 }
 
-.index-content3{
-    
+.index-content3 {
+
     margin: 20px;
     margin-bottom: 100px;
     display: flex;
-    
+
 }
-#index-content3-img{
+
+#index-content3-img {
     height: 280px;
     width: 280px;
     border-radius: 50%;
@@ -130,54 +135,56 @@ body{
 
 /* MIERE.HTML */
 
-.primary-content{
-    
+.primary-content {
+
     height: 60vh;
-    
-    
+
+
     margin: 20px;
     margin-bottom: 60px;
     padding-bottom: 15px;
-    
+
     border: 4px groove rgb(150, 200, 240);
-    
-    display:flex;
+
+    display: flex;
     flex-direction: row;
     background-color: rgb(100, 180, 240);
     opacity: 0.9;
-    
+
 
 }
-.information-content{
+
+.information-content {
     height: 50%;
     width: 30%;
-    
+
     margin: 25px;
-    
-    flex:1;
+
+    flex: 1;
 }
-#honey-paragraph{
+
+#honey-paragraph {
     color: black;
 }
 
-.information2-content{
-    
-     margin: 20px;
-     margin-bottom: 180px;
-    
-    
-    
-     display: flex;
+.information2-content {
+
+    margin: 20px;
+    margin-bottom: 180px;
+
+
+
+    display: flex;
 }
 
-.info-paragraph{
+.info-paragraph {
     height: 100%;
     width: 80%;
-    flex:1;
+    flex: 1;
     margin: 25px;
 }
 
-#round-image{
+#round-image {
     border-radius: 50%;
     height: 179px;
     width: 170px;
@@ -188,43 +195,46 @@ body{
 
 
 
-.miere-info{
+.miere-info {
     margin: 40px;
-    
+
 }
-.miere-info h2{
+
+.miere-info h2 {
     display: flex;
     justify-content: center;
 }
-#clasificare-paragraph{
+
+#clasificare-paragraph {
     font-size: 20px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 20px;
 }
 
-.miere-tip{
+.miere-tip {
     display: flex;
     margin: 20px;
     border-top: 2px solid black;
     padding-top: 20px;
 }
 
-.miere-tip-content{
+.miere-tip-content {
     height: 30%;
     width: 30%;
 }
 
-.miere-tip2{
+.miere-tip2 {
     display: flex;
     margin: 20px;
-}
-.miere-tip3{
-    display: flex;
-    margin: 20px;
-    border-bottom:2px solid black;
 }
 
-#poza-miere{
+.miere-tip3 {
+    display: flex;
+    margin: 20px;
+    border-bottom: 2px solid black;
+}
+
+#poza-miere {
     height: 130px;
     width: 130px;
     border-radius: 50%;
@@ -234,35 +244,36 @@ body{
 
 /*Fotografii.html*/
 
-.picture-box{
+.picture-box {
     margin: 40px;
-   
+
     border-top: 2px solid black;
-    
+
     display: flex;
     flex-direction: column;
-    
+
 }
-.img-box{
-    
+
+.img-box {
+
     display: flex;
     justify-content: center;
 }
 
-.img-box-last{
-    
+.img-box-last {
+
     border-bottom: 2px solid black;
-    
+
     display: flex;
     justify-content: center;
 }
 
-#image{
+#image {
     margin: 10px;
-    
+
     height: 300px;
-    width:300px;
-    
+    width: 300px;
+
 }
 
 
@@ -270,44 +281,52 @@ body{
 
 /* Produse */
 
-.produse-first{
+.produse-first {
     display: flex;
     flex-direction: column;
-    margin:20px;
+    align-items: center;
+    margin: 20px;
 }
 
-.produse-h2-img{
- display: flex;
- justify-content: center;
+.produse-h2-img {
+    
 }
 
-.produse-ul{
-    display: flex;
-    flex-direction: column;
-    margin:20px;
+.produse-ul {
+    margin: 20px;
 }
 
 
-#miere-produse{
+#miere-produse {
     height: 260px;
     width: 260px;
     border-radius: 50%;
 }
 
-.produse-second{
+.produse-second {
     margin-bottom: 30px;
-}
-.produse-second-h2{
-    margin: 20px;
-}
-.produse-second-img-pret{
-    margin: 20px;
-    display: flex;
+    border-top: 2px solid black;
 }
 
-#produse-text{
+.produse-second-h2 {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.produse-second-img-pret {
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#produse-text {
     font-family: 'Roboto';
-    font-size: 20px;
-    height: 30px;
-    width: 30px;
+    font-size: 40px;
+    text-align: center;
+}
+#miere-price{
+   font-family: 'Roboto';
+    font-size: 25px;
+    text-align: center; 
 }
