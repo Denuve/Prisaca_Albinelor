@@ -366,5 +366,19 @@ form{
     background-color: rgba(255,255,255,0.8);
 }
 
-
-
+#googleMap {
+    margin-top: 10px;
+    
+    display: flex;
+    justify-content: center;
+}
+.contact-informations{
+    margin: 20px;
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+.fas{
+    font-size: 25px;
+    margin-top: 6px;
+}
